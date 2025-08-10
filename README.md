@@ -86,5 +86,7 @@ The game includes a Python-based sound system that plays sound effects on a conn
 ├── blue_car.ino          # Controls Blue car movement and sensor input
 ├── red_ctrl.ino          # Red joystick controller logic
 ├── blue_ctrl.ino         # Blue joystick controller logic
+├── arduino_audio.py      # Python-based sound system
+├── /Arduino_Audio        # Folder containing audio files
 └── README.md             # Project documentation
 ```
