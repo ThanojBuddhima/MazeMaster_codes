@@ -81,12 +81,13 @@ The game includes a Python-based sound system that plays sound effects on a conn
 ## File Structure
 ```
 /MazeMaster
-├── maze_main_board.ino   # Controls maze walls, RFID detection, game logic
-├── red_car.ino           # Controls Red car movement and sensor input
-├── blue_car.ino          # Controls Blue car movement and sensor input
-├── red_ctrl.ino          # Red joystick controller logic
-├── blue_ctrl.ino         # Blue joystick controller logic
-├── arduino_audio.py      # Python-based sound system
-├── /Arduino_Audio        # Folder containing audio files
-└── README.md             # Project documentation
+├── Microcontroller Codes
+│   ├── blue_car.ino          # Controls Blue car movement and sensor input
+│   ├── blue_ctrl.ino         # Blue joystick controller logic
+│   ├── maze_main_board.ino   # Controls maze walls, RFID detection, game logic
+│   ├── red_car.ino           # Controls Red car movement and sensor input
+│   └── red_ctrl.ino          # Red joystick controller logic
+├── Python code
+│   └── Maze_Master.py        # Python-based sound system
+└── README.md                 # Project documentation
 ```
